@@ -14,12 +14,12 @@
         </div>
     </nav>
 
-    <h1 class="text-center mt-4 text-primary fw-bold">Isso é para você nosso amigo do peito</h1>
-    <p class="text-center mt-2 text-info text-break fw-medium">
-        Por meio desse web site e edições vinhemos lhe homenagiar. Lhe desejamos muitos anos de vida,
-        muita saúde, paz, amor, felicidade e sucesso. Que você continue sendo essa pessoa maravilhosa que
-        você é, que você continue sendo esse amigo que sempre está disposto a ajudar, e que você continue
-        continue nos bancando
+    <h1 class="text-center mt-4 m-1 text-primary fw-bold">Isso é para você nosso amigo do peito</h1>
+    <p class="text-center mt-2 m-1 text-info text-break fw-medium">
+      Através deste web site e destas palavras, viemos celebrar o seu aniversário. 
+      Desejamos a você muitos anos de vida, repletos de saúde, paz, amor, felicidade e sucesso. 
+      Que você continue sendo a pessoa incrível que é, o amigo sempre disposto a ajudar, e que 
+      continue a fazer parte das nossas vidas. Feliz aniversário! 🎉🥳🎂
     </p>
 
     <p class="text-center text-secondary">Observe alguns dos nossos melhores momentos:</p>
@@ -38,30 +38,6 @@
           <dpareiv class="carousel-item">
             <img src="/public/imgs/escuro.jpeg" class="d-block w-100" alt="Imagem 3">
           </div>
-          <div class="carousel-item">
-            <img src="/public/imgs/longe_da_placa.jpeg" class="d-block w-100" alt="Imagem 3">
-          </div>
-          <div class="carousel-item">
-            <img src="/public/imgs/segurando_placa.jpeg" class="d-block w-100" alt="Imagem 3">
-          </div>
-          <div class="carousel-item">
-            <img src="/public/imgs/muryllo_flor.jpeg" class="d-block w-100" alt="Imagem 3">
-          </div>
-          <div class="carousel-item">
-            <img src="/public/imgs/milkshake.jpeg" class="d-block w-100" alt="Imagem 3">
-          </div>
-          <div class="carousel-item">
-            <img src="/public/imgs/pare.jpeg" class="d-block w-100" alt="Imagem 3">
-          </div>
-          <div class="carousel-item">
-            <img src="/public/imgs/shopping.jpeg" class="d-block w-100" alt="Imagem 3">
-          </div>
-          <div class="carousel-item">
-            <img src="/public/imgs/bienal.jpeg" class="d-block w-100" alt="Imagem 3">
-          </div>
-          <div class="carousel-item">
-            <img src="/public/imgs/bugado.jpeg" class="d-block w-100" alt="Imagem 3">
-          </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -76,7 +52,50 @@
     <h2 class="text-center text-break text-primary mt-4">
         Dado tudo isso lhe trazemos nosso maior presente
         de todos
-    </h2>      
+    </h2>
+    
+    <div class="card m-2 mt-4" style="width: 400px;">
+        <video src="/public/VID-20230916-WA0055(1).mp4" class="card-img-top" controls></video>
+        <div class="card-body">
+          <h5 class="card-title">Feliz aniversário Muryllo</h5>
+          <p class="card-text">Fique com essa homenagem feita pela nossa futura diretora de Hollywood</p>
+        </div>
+      </div>
+      
+
+    <h1 class="text-center text-break text-primary">De:</h1>
+
+    <div class="card mt-4 m-3">
+        <img class="card-img" src="/public/imgs/bienal.jpeg" alt="Card image">
+        <div class="card-img-overlay">
+          <h5 class="card-title">Todos os seus eternos amigos</h5>
+          <p class="card-text">
+            Esperamos que você continue para sempre na nossa vida
+            e que sua amizade continue tão quanto sempre foi
+          </p>
+        </div>
+    </div>
+
+    <h1 class="text-center text-break text-primary mt-2">A ultima surpresa:</h1>
+    <p class="text-center text-break text-info">Audio gravado por nós para você</p>
+
+    <div class="text-center mt-3 m-3">
+      <button id="playButton" class="btn btn-primary">Audio dos seus amigos</button>
+    </div>
+
+    <audio id="audioPlayer" src="/public/HOIJE É TEU ANIVERSEIRIOOO(MP3_160K).mp3" loop></audio>
+
+    <script>
+      document.getElementById('playButton').addEventListener('click', function() {
+      var audioPlayer = document.getElementById('audioPlayer');
+      
+      if (audioPlayer.paused) {
+        audioPlayer.play();
+      } else {
+        audioPlayer.pause();
+      }
+    });
+    </script>
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
